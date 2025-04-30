@@ -10,7 +10,6 @@ Este projeto é uma página de apresentação inspirada no estilo da Starbucks. 
 
 - HTML5
 - CSS3
-- Flexbox
 
 ---
 
