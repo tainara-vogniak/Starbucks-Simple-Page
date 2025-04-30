@@ -1,0 +1,98 @@
+.header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* alinha verticalmente */
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.menu {
+    padding-top: 20px;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -590px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.extras img {
+    width: 650px;
+    margin-right: -50px;
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.texto-sobre{
+    margin-top: 120px;
+}
+
+.texto-sobre h1{
+    font-size: 55px;
+}
+
+.texto-sobre p{
+    margin-bottom:100px 0;
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px 24px; 
+    font-size: 30px;
+    background-color: #017143;
+    color: white;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
